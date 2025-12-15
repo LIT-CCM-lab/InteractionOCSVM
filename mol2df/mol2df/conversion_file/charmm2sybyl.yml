@@ -1,0 +1,249 @@
+# C.3 sybyl atom type
+CG3C52: C.3
+CT: C.3
+CT1: C.3
+CT2: C.3
+CT2A: C.3
+CT3: C.3
+CPT: C.3
+CP1: C.3
+CP2: C.3
+CP3: C.3
+C3: C.3
+CG301: C.3 # aliphatic C, no hydrogens, neopentane
+CG302: C.3 # aliphatic C, no hydrogens, trifluoromethyl
+CG311: C.3 # aliphatic C with 1 H, CH
+CG312: C.3 # aliphatic C with 1 H, difluoromethyl
+CG314: C.3 # aliphatic C with 1 H, adjacent to positive N (PROT NTER) (+)
+CG321: C.3 # aliphatic C for CH2
+CG322: C.3 # aliphatic C for CH2, monofluoromethyl
+CG323: C.3 # aliphatic C for CH2, thiolate carbon
+CG324: C.3 # aliphatic C for CH2, adjacent to positive N (piperidine) (+)
+CG331: C.3 # aliphatic C for methyl group (-CH3)
+CG334: C.3 # aliphatic C for methyl group (-CH3), adjacent to positive N (PROT NTER) (+)
+CG3AM0: C.3 # aliphatic C for CH3, NEUTRAL trimethylamine methyl carbon (#)
+CG3AM1: C.3 # aliphatic C for CH3, NEUTRAL dimethylamine methyl carbon (#)
+CG3AM2: C.3 # aliphatic C for CH3, NEUTRAL methylamine methyl carbon (#)
+CG3C31: C.3 # cyclopropyl carbon
+CG3C41: C.3 # cyclobutyl carbon
+CG3C50: C.3 # 5-mem ring aliphatic quarternary C (cholesterol, bile acids)
+CG3C51: C.3 # 5-mem ring aliphatic CH  (proline CA, furanoses)
+CG3C52: C.3 # 5-mem ring aliphatic CH2 (proline CB/CG/CD, THF, deoxyribose)
+CG3C53: C.3 # 5-mem ring aliphatic CH  adjacent to positive N (proline.H+ CA) (+)
+CG3C54: C.3 # 5-mem ring aliphatic CH2 adjacent to positive N (proline.H+ CD) (+)
+CG3RC1: C.3 # bridgehead in bicyclic systems containing at least one 5-membered or smaller ring
+
+
+# C.2 sybyl atom type
+C: C.2
+CC: C.2
+CG2DC1: C.2   # conjugated alkenes, R2C=CR2
+CG2DC2: C.2   # conjugated alkenes, R2C=CR2
+CG2DC3: C.2    # conjugated alkenes, H2C=
+CG2D1: C.2
+CG2D2: C.2
+CG2R53: C.2
+CG2O1: C.2
+CG2O2: C.2
+CG2O3: C.2
+CG2O4: C.2
+CG2O5: C.2
+CG2O6: C.2
+CG2O7: C.2
+
+
+
+# C.ar sybyl atom type
+CPH1: C.ar
+CPH2: C.ar
+CAI: C.ar
+CD: C.ar
+CA: C.ar
+CY: C.ar
+CG2RC0: C.ar
+CG2R61: C.ar
+CG2R51: C.ar
+CG2R71: C.ar
+CG2R67: C.ar
+CG2R64: C.ar
+CG2R52: C.ar
+CG2R66: C.ar
+CG2R57: C.ar
+CG2R63: C.ar
+
+
+# C.1 sybyl atom type
+CG1N1: C.1
+CG1T1: C.1
+ 
+
+# N.3 sybyl atom type
+N: N.3
+NH1: N.3
+NH2: N.3
+NH3: N.3
+NP: N.3
+NG301: N.3
+NG311: N.3
+NG321: N.3
+NG331: N.3
+
+
+# N.2 sybyl atom type
+NR2: N.pl3
+NG2S3: N.pl3
+
+
+
+# N.1 sybyl atom type
+NG1T1: N.1
+
+
+# N.4 sybyl atom type
+NH3: N.4
+NP: N.4
+NG3P1: N.4
+NG3P2: N.4
+NG3P0: N.4
+NG3P3: N.4
+
+
+# N.ar sybyl atom type
+NB: N.ar
+NG2R51: N.ar
+NG2R62: N.ar
+NG2RC0: N.ar
+
+
+# N.am sybyl atom type
+NH1: N.am
+NH2: N.am
+NG2S1: N.am
+NG2S0: N.am
+
+
+# N.pl3 sybyl atom type
+NY: N.pl3
+NC2: N.pl3
+NR3: N.pl3
+NR1: N.pl3
+NG2R60: N.pl3
+NG2R50: N.pl3
+NG2R61: N.pl3
+
+
+# O.3 sybyl atom type
+OH1: O.3
+OS: O.3
+OG3R60: O.3 # O in 6-mem cyclic enol ether (PY01, PY02) or ester
+OG304: O.3  # linkage oxygen in pyrophosphate/pyrosulphate
+OG311: O.3  # hydroxyl oxygen
+OG312: O.3  # ionized alcohol oxygen
+OG3C31: O.3 # epoxide oxygen, 1EOX, 1BOX, sc
+OG3C51: O.3 # 5-mem furanose ring oxygen (ether)
+OG3C61: O.3 # DIOX, dioxane, ether in 6-membered ring #SHOULD WE MERGE THIS WITH OG3R60???
+OG301: O.3 # ether -O-
+OG302: O.3
+
+
+# O.2 sybyl atom type
+O: O.2
+OG2D1: O.2
+OG2D3: O.2
+OB: O.2
+OT: O.2
+OG2R50: O.2
+OG2D4: O.2
+
+
+# O.co2 sybyl atom type
+OC: O.co2
+OG2D2: O.co2
+
+
+# S.3 sybyl atom type
+SM: S.3
+S: S.3
+SG311: S.3
+
+
+# S.2 sybyl atom type
+s: S.2
+SG2R50: S.2
+
+
+# S.o sybyl atom type
+s4: S.o
+
+
+# S.o2 sybyl atom type
+s6: S.o2
+
+
+# H atom type
+H: H
+HGR61: H
+HA1: H
+HS: H
+HGA1: H
+HP: H
+HT: H
+HR1: H
+HGA2: H
+HC: H
+HR2: H
+HGA3: H
+HB2: H
+HB1: H
+HGP1: H
+HA2: H
+HA3: H
+HR3: H
+HGA1: H # alphatic proton, CH
+HGA2: H # alphatic proton, CH2
+HGA3: H # alphatic proton, CH3
+HGA4: H # alkene proton; RHC=
+HGA5: H # alkene proton; H2C=CR
+HGA6: H # aliphatic H on fluorinated C, monofluoro
+HGA7: H # aliphatic H on fluorinated C, difluoro
+HGAAM0: H  # aliphatic H, NEUTRAL trimethylamine (#)
+HGAAM1: H  # aliphatic H, NEUTRAL dimethylamine (#)
+HGAAM2: H  # aliphatic H, NEUTRAL methylamine (#)
+HGP1: H # polar H
+HGP2: H # polar H, +ve charge
+HGP3: H # polar H, thiol
+HGP4: H # polar H, neutral conjugated -NH2 group (NA bases)
+HGP5: H # polar H on quarternary ammonium salt (choline)
+HGPAM1: H  # polar H, NEUTRAL dimethylamine (#), terminal alkyne H
+HGPAM2: H  # polar H, NEUTRAL methylamine (#)
+HGPAM3: H # polar H, NEUTRAL ammonia (#)
+HGR51: H # nonpolar H, neutral 5-mem planar ring C, LJ based on benzene
+HGR52: H # Aldehyde H, formamide H (RCOH); nonpolar H, neutral 5-mem planar ring C adjacent to heteroatom or + charge
+HGR53: H # nonpolar H, +ve charge HIS he1(+1)
+HGR61: H # aromatic H
+HGR62: H # nonpolar H, neutral 6-mem planar ring C adjacent to heteroatom
+HGR63: H # nonpolar H, NAD+ nicotineamide all ring CH hydrogens
+HGR71: H # nonpolar H, neutral 7-mem arom ring, AZUL, azulene, kevo
+
+
+# Cl sybyl atom type
+cl: Cl
+CLGR1: Cl
+
+
+# Br sybyl atom type
+br: Br
+BRGA1: Br
+
+
+# I sybyl atom type
+IGR1: I
+
+
+# F sybyl atom type
+FGA3: F
+FGR1: F
+
+
+# P.3 sybyl atom type
+P: P.3

@@ -1,0 +1,30 @@
+Bootstrap: docker
+From: condaforge/miniforge3
+
+%files
+	interactionocsvm_env.yaml
+	pyichem
+	mol2df
+	interocsvm
+
+%post
+	echo ". /opt/conda/etc/profile.d/conda.sh" >> $SINGULARITY_ENVIRONMENT
+	echo "conda activate InteractionOCSVM" >> $SINGULARITY_ENVIRONMENT
+    . /opt/conda/etc/profile.d/conda.sh
+	conda env create -f interactionocsvm_env.yaml
+	conda activate InteractionOCSVM
+	pip install mol2df/ pyichem/ interocsvm/
+	apt-get -y update
+	apt-get -y install libsm6 libxext6 libxrender-dev
+	pip install opencv-contrib-python
+
+%runscript
+	. /opt/conda/etc/profile.d/conda.sh
+	conda activate InteractionOCSVM
+	exec python "$@"
+
+%test
+	. /opt/conda/etc/profile.d/conda.sh
+	conda activate InteractionOCSVM
+	grep CX /opt/conda/envs/InteractionOCSVM/lib/python3.7/site-packages/mol2df/conversion_file/amber2sybyl.yml
+	grep XC /opt/conda/envs/InteractionOCSVM/lib/python3.7/site-packages/mol2df/conversion_file/amber2sybyl.yml

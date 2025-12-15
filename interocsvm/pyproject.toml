@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'interocsvm'
+version = '0.2'
+authors = [{name = 'Luca Chiesa', email = 'luca.chiesa@unistra.fr'}]
+description = 'Package containing the InteractionOCSVM models in all of its different declinations, as well as the tools necessary for its training.'
+license = {text = "MIT"}
+requires-python = ">=3.7"
+dependencies = ['numpy', 'matplotlib', 'kneed', 'scipy']
+
+[project.urls]
+Homepage = 'https://github.com/LIT-CCM-lab/InteractionOCSVM'

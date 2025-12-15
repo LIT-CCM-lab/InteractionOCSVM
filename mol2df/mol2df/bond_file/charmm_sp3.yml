@@ -1,0 +1,119 @@
+# Protein atoms
+-  H  # polar H
+-  HC # N-ter H
+-  HA # nonpolar H
+-  HP # aromatic H
+-  HB1 # backbone H
+-  HB2 # aliphatic backbone H, to CT2
+-  HR1 # his he1, (+) his HG,HD2
+-  HR2 # (+) his HE1
+-  HR3 # neutral his HG, HD2
+-  HS # thiol hydrogen
+-  HE1 # for alkene; RHC=CR
+-  HE2 # for alkene; H2C=CR
+-  HA1 # alkane, CH, new LJ params (see toppar_all22_prot_aliphatic_c27.str)
+-  HA2 # alkane, CH2, new LJ params (see toppar_all22_prot_aliphatic_c27.str)
+-  HA3 # alkane, CH3, new LJ params (see toppar_all22_prot_aliphatic_c27.str)
+-  CT # aliphatic sp3 C, new LJ params, no hydrogens
+-  CT1 # aliphatic sp3 C for CH
+-  CT2 # aliphatic sp3 C for CH2
+-  CT2A # from CT2 (asp, glu, hsp chi1/chi2 fitting)
+-  CT3 # aliphatic sp3 C for CH3
+-  CPT # trp C between rings
+-  CP1 # tetrahedral C (proline CA)
+-  CP2 # tetrahedral C (proline CB/CG)
+-  CP3 # tetrahedral C (proline CD)
+-  C3 # cyclopropane carbon
+-  N # proline N
+-  NH1  # peptide nitrogen
+-  NH2  # amide nitrogen
+-  NH3  # ammonium nitrogen
+-  NP   # Proline ring NH2+ (N-terminal)
+-  OH1  # hydroxyl oxygen
+-  OS   # ester oxygen
+-  S    # sulphur
+-  SM   # sulfur C-S-S-C type
+
+- HT
+
+# cgenff atoms
+-  HGA1 # alphatic proton, CH
+-  HGA2 # alphatic proton, CH2
+-  HGA3 # alphatic proton, CH3
+-  HGA4 # alkene proton; RHC=
+-  HGA5 # alkene proton; H2C=CR
+-  HGA6 # aliphatic H on fluorinated C, monofluoro
+-  HGA7 # aliphatic H on fluorinated C, difluoro
+-  HGAAM0  # aliphatic H, NEUTRAL trimethylamine (#)
+-  HGAAM1  # aliphatic H, NEUTRAL dimethylamine (#)
+-  HGAAM2  # aliphatic H, NEUTRAL methylamine (#)
+-  HGP1 # polar H
+-  HGP2 # polar H, +ve charge
+-  HGP3 # polar H, thiol
+-  HGP4 # polar H, neutral conjugated -NH2 group (NA bases)
+-  HGP5 # polar H on quarternary ammonium salt (choline)
+-  HGPAM1  # polar H, NEUTRAL dimethylamine (#), terminal alkyne H
+-  HGPAM2  # polar H, NEUTRAL methylamine (#)
+-  HGPAM3  # polar H, NEUTRAL ammonia (#)
+-  HGR51 # nonpolar H, neutral 5-mem planar ring C, LJ based on benzene
+-  HGR52 # Aldehyde H, formamide H (RCOH); nonpolar H, neutral 5-mem planar ring C adjacent to heteroatom or + charge
+-  HGR53 # nonpolar H, +ve charge HIS he1(+1)
+-  HGR61 # aromatic H
+-  HGR62 # nonpolar H, neutral 6-mem planar ring C adjacent to heteroatom
+-  HGR63 # nonpolar H, NAD+ nicotineamide all ring CH hydrogens
+-  HGR71 # nonpolar H, neutral 7-mem arom ring, AZUL, azulene, kevo
+-  CG301 # aliphatic C, no hydrogens, neopentane
+-  CG302 # aliphatic C, no hydrogens, trifluoromethyl
+-  CG311 # aliphatic C with 1 H, CH
+-  CG312 # aliphatic C with 1 H, difluoromethyl
+-  CG314 # aliphatic C with 1 H, adjacent to positive N (PROT NTER) (+)
+-  CG321 # aliphatic C for CH2
+-  CG322 # aliphatic C for CH2, monofluoromethyl
+-  CG323 # aliphatic C for CH2, thiolate carbon
+-  CG324 # aliphatic C for CH2, adjacent to positive N (piperidine) (+)
+-  CG331 # aliphatic C for methyl group (-CH3)
+-  CG334 # aliphatic C for methyl group (-CH3), adjacent to positive N (PROT NTER) (+)
+-  CG3AM0 # aliphatic C for CH3, NEUTRAL trimethylamine methyl carbon (#)
+-  CG3AM1 # aliphatic C for CH3, NEUTRAL dimethylamine methyl carbon (#)
+-  CG3AM2 # aliphatic C for CH3, NEUTRAL methylamine methyl carbon (#)
+-  CG3C31 # cyclopropyl carbon
+-  CG3C41 # cyclobutyl carbon
+-  CG3C50 # 5-mem ring aliphatic quarternary C (cholesterol, bile acids)
+-  CG3C51 # 5-mem ring aliphatic CH  (proline CA, furanoses)
+-  CG3C52 # 5-mem ring aliphatic CH2 (proline CB/CG/CD, THF, deoxyribose)
+-  CG3C53 # 5-mem ring aliphatic CH  adjacent to positive N (proline.H+ CA) (+)
+-  CG3C54 # 5-mem ring aliphatic CH2 adjacent to positive N (proline.H+ CD) (+)
+-  CG3RC1 # bridgehead in bicyclic systems containing at least one 5-membered or smaller ring
+-  NG3P0 # quarternary N+, choline
+-  NG3P1 # tertiary NH+ (PIP)
+-  NG3P2 # secondary NH2+ (proline)
+-  NG3P3 # primary NH3+, phosphatidylethanolamine
+-  NG2R61 # single bound neutral 6-mem planar ring imino nitrogen; glycosyl linkage
+-  NG2S0
+-  NG2S1
+-  NG301
+-  OG3R60 # O in 6-mem cyclic enol ether (PY01, PY02) or ester
+-  OG304  # linkage oxygen in pyrophosphate/pyrosulphate
+-  OG311  # hydroxyl oxygen
+-  OG312  # ionized alcohol oxygen
+-  OG3C31 # epoxide oxygen, 1EOX, 1BOX, sc
+-  OG3C51 # 5-mem furanose ring oxygen (ether)
+-  OG3C61 # DIOX, dioxane, ether in 6-membered ring #SHOULD WE MERGE THIS WITH OG3R60???
+-  OG301
+-  SG311 # sulphur, SH, -S-
+-  SG301 # sulfur C-S-S-C type
+-  SG302 # thiolate sulfur (-1)
+-  SG3O1 # sulfate -1 sulfur
+-  CLGA1 # CLET, DCLE, chloroethane, 1,1-dichloroethane
+-  CLGA3 # TCLE, 1,1,1-trichloroethane
+-  CLGR1 # CHLB, chlorobenzene
+-  BRGA1 # BRET, bromoethane
+-  BRGA2 # DBRE, 1,1-dibromoethane
+-  BRGA3 # TBRE, 1,1,1-dibromoethane
+-  BRGR1 # BROB, bromobenzene
+-  IGR1  # IODB, iodobenzene
+-  FGA1  # aliphatic fluorine, monofluoro
+-  FGA2  # aliphatic fluorine, difluoro
+-  FGA3  # aliphatic fluorine, trifluoro
+-  FGP1  # anionic F, for ALF4 AlF4-
+-  FGR1  # aromatic flourine

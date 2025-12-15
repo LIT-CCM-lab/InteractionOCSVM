@@ -1,0 +1,227 @@
+# C.3 sybyl atom type
+2C: C.3
+3C: C.3
+C8: C.3
+C3: C.3
+CT: C.3
+CX: C.3
+XC: C.3
+C8: C.3
+c3: C.3
+cx: C.3
+cy: C.3
+cz: C.3
+cu: C.3
+cv: C.3
+
+
+
+# C.2 sybyl atom type
+CO: C.2
+C: C.2
+CH: C.2
+C2: C.2
+C3: C.2
+c: C.2
+c2: C.2
+ce: C.2
+cf: C.2
+
+
+# C.ar sybyl atom type
+CA: C.ar
+CB: C.ar
+CC: C.ar
+CK: C.ar
+CM: C.ar
+CN: C.ar
+CQ: C.ar
+CR: C.ar
+CV: C.ar
+CW: C.ar
+C*: C.ar
+CD: C.ar
+CE: C.ar
+CF: C.ar
+CG: C.ar
+CI: C.ar
+CJ: C.ar
+CP: C.ar
+ca: C.ar
+cp: C.ar
+cc: C.ar
+cd: C.ar
+
+
+# C.1 sybyl atom type
+c1: C.1
+CY: C.1
+CZ: C.1
+cg: C.1
+ch: C.1
+ 
+
+# N.3 sybyl atom type
+NT: N.3
+n4: N.3
+no: N.3
+n7: N.3
+n8: N.3
+n9: N.3
+n3: N.3
+n5: N.3
+n6: N.3
+np: N.3
+nq: N.3
+
+# N.2 sybyl atom type
+nb: N.2
+nc: N.2
+nd: N.2
+n2: N.2
+ne: N.2
+nf: N.2
+
+# N.1 sybyl atom type
+n1: N.1
+NY: N.1
+
+# N.4 sybyl atom type
+N3: N.4
+nk: N.4
+nl: N.4
+nx: N.4
+ny: N.4
+nz: N.4
+n+: N.4
+n4: N.4
+
+
+# N.ar sybyl atom type
+NB: N.ar
+NC: N.ar
+nb: N.ar
+
+# N.am sybyl atom type
+N: N.am
+n: N.am
+ni: N.am
+nj: N.am
+ns: N.am
+nt: N.am
+
+# N.pl3 sybyl atom type
+N2: N.pl3
+NA: N.pl3
+N*: N.pl3
+na: N.pl3
+nm: N.pl3
+nn: N.pl3
+nu: N.pl3
+nv: N.pl3
+nh: N.pl3
+
+# O.3 sybyl atom type
+OH: O.3
+OS: O.3
+OW: O.3
+oh: O.3
+os: O.3
+op: O.3
+oq: O.3
+ow: O.3
+
+# O.2 sybyl atom type
+O: O.2
+o: O.2
+
+# O.co2 sybyl atom type
+OC: O.co2
+OP: O.co2
+OQ: O.co2
+OR: O.co2
+OT: O.co2
+OX: O.co2
+OV: O.co2
+OZ: O.co2
+O2: O.co2
+
+# S.3 sybyl atom type
+S: S.3
+SH: S.3
+sh: S.3
+sp: S.3
+sq: S.3
+ss: S.3
+
+# S.2 sybyl atom type
+s: S.2
+s2: S.2
+
+# S.o sybyl atom type
+s4: S.o
+sx: S.o
+
+# S.o2 sybyl atom type
+s6: S.o2
+sy: S.o2
+SO: S.o2
+
+# H atom type
+H: H
+HC: H
+HO: H
+HS: H
+HW: H
+H1: H
+H2: H
+H3: H
+HA: H
+H4: H
+H5: H
+HP: H
+HW: H
+HZ: H
+hc: H
+ha: H
+hn: H
+ho: H
+hs: H
+hp: H
+hw: H
+hx: H
+h1: H
+h2: H
+h3: H
+h4: H
+h5: H
+
+# Cl sybyl atom type
+cl: Cl
+Cl: Cl
+
+# Br sybyl atom type
+br: Br
+Br: Br
+
+# I sybyl atom type
+i: I
+I: I
+
+# F sybyl atom type
+f: F
+F: F
+
+# P.3 sybyl atom type
+P: P.3
+p2: P.3
+p3: P.3
+p4: P.3
+p5: P.3
+pb: P.3
+pc: P.3
+pd: P.3
+pe: P.3
+pf: P.3
+px: P.3
+py: P.3

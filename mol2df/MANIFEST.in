@@ -1,0 +1,2 @@
+include mol2df/conversion_file/*
+include mol2df/bond_file/*

@@ -127,9 +127,9 @@ Each set of binding modes is evalauted separately by all the OCSVM models passed
 
 ## How to reference this work
 If you are using **InteractionOCSVM** please cite:
-- Luca Chiesa and Esther Kellenberger <br />
-  *Docking and protein-ligand interactions for efficacy-driven virtual screening targeting GPCRs: Overall performance and critical limitations in retrospective and prospective cases*<br />
-  Under review
+- Chiesa L, Bret G, Schneider S, Schmitt M, Bihel F, Outn O, Lescuyer M, Durroux T, and Kellenberger E<br />
+  *Performances and Critical Limitations of Docking and Protein–Ligand Interactions for Efficacy-Driven Virtual Screening Targeting Class A GPCRs*<br />
+  Journal of Chemical Information and Modeling (**2026**) doi: [10.1021/acs.jcim.6c02252](https://pubs.acs.org/jcisd8/article/doi/10.1021/acs.jcim.6c02252/5398497/Performances-and-Critical-Limitations-of-Docking)
 - Luca Chiesa and Esther Kellenberger <br />
   *One class classification for the detection of β2 adrenergic receptor agonists using single-ligand dynamic interaction data* <br />
   Journal of Cheminformatics (**2022**) doi: [10.1186/s13321-022-00654-z](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-022-00654-z)
